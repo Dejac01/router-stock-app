@@ -35,12 +35,9 @@ const stockList = stocks.map((element, key) =>{
   return (
     <div>
                   <div>
-                    <h1>Most Active Stocks</h1>
+                    <h1>Current Stock List</h1>
                   </div>
                   <div className="table">
-                    <h4 className="name">Company Name</h4>
-                    <h4>Price</h4>
-                    <h4>Symbol</h4>
                    </div>
                    {stockList}
          
