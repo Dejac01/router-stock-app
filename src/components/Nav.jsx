@@ -8,9 +8,6 @@ import {Link} from 'react-router-dom'
       <Link to="/">
         <div>Home</div>
       </Link>
-      <Link to="/Dashboard">
-        <div>Dashboard</div>
-      </Link>
       <Link to="/Stocks">
         <div>Stocks</div>
       </Link>

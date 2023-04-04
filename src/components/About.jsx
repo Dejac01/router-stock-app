@@ -2,7 +2,9 @@ import React from 'react'
 
 function About() {
   return (
-    <div>About</div>
+    <div>
+    Checkout the stocks page to review stock prices and data!  
+    </div>
   )
 }
 
