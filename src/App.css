@@ -100,10 +100,10 @@ body{
 .h3{
   text-decoration: underline;
   color: white;
-  text-align: center
+  text-align: right;
  }
- .p1{
+ /* .p1{
   text-decoration: underline;
   color: white;
   text-align: center
- }
+ } */
