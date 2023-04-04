@@ -46,8 +46,9 @@ body{
   justify-content: space-between;
   background-color: rgb(22, 14, 184);
   color: white;
-  padding: 15px;
+  padding: 7px;
   font-size: 2em;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .nav a {

@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
         const { name, symbol } = coin;
 
         return (
-          <Link key={key}to={`/stock/${symbol}`}>
+          <Link key={key}to={`https://www.investing.com/equities/most-active-stocks`}>
             <h2>{name}</h2>
           </Link>
         );
