@@ -61,15 +61,15 @@
   height: 48px;
 }
 
-.stocklist{
+.list{
   display: flex;
   justify-content: space-between;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
-.name{
-  width: 33%;
+.stocks{
+  width: 50%;
   text-align: left;
   border-bottom: solid black;
 }

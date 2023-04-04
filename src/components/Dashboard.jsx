@@ -14,7 +14,7 @@ function Dashboard() {
     
 
 let {data} = response;
-data.length = 10;
+data.length = 15;
 console.log(data)
 setStocks(data);
   };
@@ -23,8 +23,8 @@ setStocks(data);
 
 const stockList = stocks.map((element, key) =>{
   return (
-    <div key={key} className="stocklist">
-      <Link className="name"  to={`/Stock/${element.symbol}`}>
+    <div key={key} className="list">
+      <Link className="stocks"  to={`/Stock/${element.symbol}`}>
  <p className="name">{element.name}</p> </Link>
       <p className="price">${element.price}</p>
       <p>{element.symbol}</p> 
