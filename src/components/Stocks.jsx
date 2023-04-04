@@ -13,7 +13,8 @@ import { Link } from "react-router-dom";
   ]
 
   return (
-    <div className="stocks">
+    <div className="stocks2">
+      <h1 className='h1'>Popular Stocks</h1>
       {stocks.map((coin,key) => {
         const { name, symbol } = coin;
 
@@ -24,7 +25,7 @@ import { Link } from "react-router-dom";
         );
       })}
    
-<h1>Stocks</h1> 
+
 
 </div>
   );
