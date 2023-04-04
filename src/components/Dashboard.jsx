@@ -9,7 +9,7 @@ function Dashboard() {
   const [stocks, setStocks] = useState([]);
   useEffect(()=>{ 
   const getStock = async () => {
-    const response = await axios.get('https://financialmodelingprep.com/api/v3/available-traded/list?apikey=975cecfc0c6f31c746dd4a278155c535')
+    const response = await axios.get('https://financialmodelingprep.com/api/v3/available-traded/list?apikey=e60c79af5d65d98572ebe4736b8259f5')
   
     
 
