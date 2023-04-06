@@ -8,7 +8,7 @@
 }
 
 body{
-  background-color: black;
+  background-color: rgb(202, 193, 193);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -71,7 +71,7 @@ body{
   justify-content: space-between;
   padding-left: 4em;
   padding-right: 4em;
-  color: white;
+  color: black;
 }
 
 .stocks{
@@ -79,7 +79,7 @@ body{
   text-align: left;
   border-bottom: solid black;
   font-size: larger;
-  color: white;
+  color: black;
 }
 
 .stocks2{
@@ -89,17 +89,17 @@ body{
 
 .price  {
   text-align: right;
-  color: white;
+  color: black;
   /* text-decoration: none; */
 }
 
 .h1{
-  color: white;
+  color: black;
 }
 
 .h3{
   text-decoration: underline;
-  color: white;
+  color: black;
   text-align: right;
  }
  /* .p1{

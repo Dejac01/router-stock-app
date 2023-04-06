@@ -39,7 +39,7 @@ const stockList = stocks.map((element, key) =>{
                   </div>
                   <div className="table">
                   <h3 className='h3'>Company</h3>
-                    <h3 className='p1'>Price</h3>
+                    
                     <h3 className='h3'>Symbol</h3>
                    </div>
                    {stockList}
